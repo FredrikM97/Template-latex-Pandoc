@@ -1,8 +1,10 @@
-# Makefile for markdown presentation
+# Makefile for markdown report/presentation
+
 # Following is needed:
 	# pandoc
 	# pandoc-crossref
 	# pandoc-citeproc
+	
 # Directory for source md files
 source := report
 # Directory for pdf output
