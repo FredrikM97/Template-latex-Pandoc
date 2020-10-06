@@ -3,7 +3,9 @@
 % Contains all imports that is used for the project files, include graphics, table, reference hightlights, subfiles etc..
 % Import packages
 %
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage[greek,english]{babel}
 \usepackage[a4paper, margin=3.5cm]{geometry}
 %Create file for each chapter
 \usepackage{subfiles}
@@ -70,3 +72,4 @@
 % 
 \pretocmd{\section}{\cleardoublepage}{}{}
 \graphicspath{{Figures/}{/Figures/}}
+\setlength{\marginparwidth}{2cm}
